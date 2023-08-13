@@ -3,32 +3,55 @@
     background-color: wheat;
 }
 
+.subheading {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+}
 
-li {
+li,
+p {
     list-style: none;
-    color: white;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+img {
+    display: flex;
+    align-items: center;
 }
 h1 {
-    color: white;
+    color: black;
     text-align: center;
     font-weight: bold;
     font-size: 55px;
-}
-
-.subheading {
-    color: white;
-    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 a:hover{
     text-decoration: underline;
 }
 
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#chickenpic {
+    height: 600px;
+}
